@@ -1,0 +1,102 @@
+.zone-contain
+  width: 100%
+  height: 100%
+  box-sizing: border-box
+  position: relative
+  overflow: hidden
+  .presets-scroll
+    box-sizing: border-box
+    padding: 10px 15px
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 140px
+    display: flex
+    flex-wrap: nowrap
+    overflow-x: auto
+    &::-webkit-scrollbar
+      display: none
+
+
+.preset-block
+  flex: 0 0 auto
+  margin-right: 32px
+  opacity: 0.5
+  transition-duration: .4s
+  cursor: pointer
+  &:nth-child(1)
+    opacity: 1
+  &:hover
+    opacity: 1
+  .text
+    font-size: .7em
+    text-align: center
+    padding: 16px 0
+  .img-contain
+    width: 80px
+    height: 80px
+    border-radius: 999px
+    overflow: hidden
+    position: relative
+    display: flex
+    justify-content: center
+    img
+      border-style: none
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+.crop-block
+  cursor: move
+  position: absolute
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  background-color: rgba(black, 0.3)
+  box-sizing: border-box
+  border: dotted 2px #f0f0f0
+  z-index: 1999
+  span
+    display: block
+    position: absolute
+    width: 16px
+    height: 16px
+    background-color: #fff
+    transition-duration: .2s
+    &:hover
+      background-color: #ddd
+  button
+    user-select: none
+    margin: 8px
+    cursor: pointer
+    border: none
+    outline: none
+    text-align: center
+    background-color: #fff
+    color: #555
+    padding: 8px 20px
+    border-radius: 20px
+    transition-duration: .2s
+    &:hover
+      background-color: rgba(#555, 0.5)
+      color: #fff
+
+.function-contain
+  position: absolute
+  display: block
+  top: 0
+  left: 0
+  display: flex
+  button
+    cursor: pointer
+    user-select: none
+    border: none
+    outline: none
+    text-align: center
+    background-color: rgba(#555, 0.5)
+    color: #ddd
+    padding: 16px
+    transition-duration: .2s
+    &:hover
+      color: #fff

@@ -1,2 +1,2 @@
-# Photo uploader
+# Photo Uploader
 > Homework for Dcard.

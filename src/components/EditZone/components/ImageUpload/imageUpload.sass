@@ -1,0 +1,45 @@
+.upload-contain
+  width: 100%
+  height: 100%
+  box-sizing: border-box
+  padding: 25px
+
+.cropper
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  width: 100%
+  height: 100%
+  border: dotted 3px #f0f0f0
+  label
+    cursor: pointer
+    padding: 8px 20px
+    border-radius: 20px
+    text-align: center
+    background-color: #555
+    transition-duration: .2s
+    input[type="file"]
+      display: none
+    &:hover
+      background-color: #fff
+      color: #555
+  input[type="text"]
+    width: 30%
+    min-width: 240px
+    border-radius: 6px
+    padding: 0.5em 0.8em
+    box-sizing: border-box
+    border: none
+    text-align: center
+    &:focus
+      outline: none
+      color: #444
+  input:focus::-webkit-input-placeholder
+    opacity: 0
+  .message
+    position: absolute
+    bottom: 120px
+    box-sizing: border-box
+    font-weight: 300
+    font-style: italic
