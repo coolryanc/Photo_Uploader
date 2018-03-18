@@ -97,7 +97,7 @@ class CanvasFunction extends Component {
           <button onClick={(e) => this.setCrop(e)}>Crop</button>
           <button onClick={() => this.mainpulateCanvas(90)}>ClockWise</button>
           <button onClick={() => this.mainpulateCanvas(-90)}>CounterClockWise</button>
-          <button onClick={() => this.mainpulateCanvas('h')}>flip</button>
+          <button onClick={() => this.mainpulateCanvas('h')}>Flip</button>
         </div>
       );
     }

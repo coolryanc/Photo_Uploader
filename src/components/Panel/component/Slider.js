@@ -34,6 +34,7 @@ class Slider extends Component {
     return (
       <div styleName="field-wrap">
         <div style={{position: "relative"}}>
+          <img src={this.props.funcObj.icon} alt={this.props.funcObj.name} />
           <label>{this.props.funcObj.name}</label>
           <span styleName="percent">{this.state.barWidth}</span>
         </div>
