@@ -6,7 +6,7 @@
   <a href="https://yuanc.me/photoUploader/" target="_blank">
     <img src="https://i.imgur.com/UrfGOPf.jpg" width="700px">
   </a>
-  <br />
+  <br>
   Live demo
 </p>
 
