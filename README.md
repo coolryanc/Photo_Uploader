@@ -1,11 +1,13 @@
 # Photo Uploader
 
 > Homework for Dcard. Built with ReactJs. Use boilerplate
-[create-react-app](https://github.com/facebook/create-react-app).
+[create-react-app](https://github.com/facebook/create-react-app). Click the [live demo link](https://yuanc.me/photoUploader/).
 <p align="center">
-  <a>
+  <a href="https://yuanc.me/photoUploader/" target="_blank">
     <img src="https://i.imgur.com/UrfGOPf.jpg" width="700px">
   </a>
+  <br />
+  Live demo
 </p>
 
 ## Also built with
@@ -20,11 +22,9 @@
 - - [x] Support drag and drop file. 😎
 
 <p align="center">
-  <a href="https://yuanc.me/photoUploader/" target="_blank">
+  <a>
     <img src="https://i.imgur.com/c1t4209.png" width="700px">
   </a>
-  <br />
-  Live demo
 </p>
 
 ### Edit photo
