@@ -5,9 +5,9 @@
 <p align="center">
   <a href="https://yuanc.me/photoUploader/" target="_blank">
     <img src="https://i.imgur.com/UrfGOPf.jpg" width="700px">
+    <br>
+    Live demo
   </a>
-  <br>
-  Live demo
 </p>
 
 ## Also built with
