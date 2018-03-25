@@ -211,6 +211,24 @@ module.exports = {
                 loader: 'sass-loader',
                 options: { sourceMap: true },
               },
+              {
+                loader: require.resolve('postcss-loader'),
+                options: {
+                  ident: 'postcss',
+                  plugins: () => [
+                    require('postcss-flexbugs-fixes'),
+                    autoprefixer({
+                      browsers: [
+                        '>1%',
+                        'last 4 versions',
+                        'Firefox ESR',
+                        'not ie < 9',
+                      ],
+                      flexbox: 'no-2009',
+                    }),
+                  ],
+                },
+              },
             ],
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
