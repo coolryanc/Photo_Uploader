@@ -4,7 +4,9 @@ import PanelContainer from './containers/PanelContainer'
 import ImageContainer from './containers/ImageContainer'
 import { setting as funcs } from './shared/config'
 import CSSModules from 'react-css-modules';
+import IdealImage from 'react-ideal-image'
 import styles from './App.sass';
+// import image from './shared/bgc.jpg';
 
 class App extends Component {
   getChildContext() {
@@ -16,6 +18,13 @@ class App extends Component {
   render() {
     return (
       <div styleName="app">
+        <IdealImage
+          placeholder={{color: 'red'}}
+          srcSet={[{src: 'https://source.unsplash.com/random', width: 300}]}
+          width={500}
+          height={500}
+          getUrl={() => 'https://source.unsplash.com/random'}
+        />
         <div styleName="panel">
           <PanelContainer />
         </div>

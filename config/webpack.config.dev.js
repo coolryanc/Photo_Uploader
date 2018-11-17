@@ -208,10 +208,6 @@ module.exports = {
                 },
               },
               {
-                loader: 'sass-loader',
-                options: { sourceMap: true },
-              },
-              {
                 loader: require.resolve('postcss-loader'),
                 options: {
                   ident: 'postcss',
@@ -227,7 +223,12 @@ module.exports = {
                       flexbox: 'no-2009',
                     }),
                   ],
+                  sourceMap: true,
                 },
+              },
+              {
+                loader: 'sass-loader',
+                options: { sourceMap: true },
               },
             ],
           },
